@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Home - CSCareers</title>
+    <link rel="icon" type="image/x-icon" href="Resources/images/favicon.jpg">
+    <!-- Bootstrap -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      </script>
+    <!-- Custom styles for this template -->
+    <link href="Resources/style/style.css" rel="stylesheet">
+    <style>
+      body{
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!--HeadBar-->
+    <header>
+      <div class="row">
+        <div class="head-bar py-3 justify-content-center">
+          <div class="inside-container mx-auto flex-column text-center text-white">
+            <div class="mb-auto">
+              <div>
+                <h3 class="float-md-start">CSCareers.</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="overview.html">Overview</a>
+                  <a class="nav-link" href="dream.html">Dream</a>
+                  <a class="nav-link active" aria-current="page" href="careers.html">Careers</a>
+                  <a class="nav-link" href="pathways.html">Pathways</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <header>
+      
+    <div class="container d-flex text-black">
+      <div class="row">
+        <!--jumbotron-->
+        <div class="d-flex mx-auto flex-column">
+          <div class="jumbotron mb-3 text-white rounded">
+            <h1>Career Options</h1>
+            <p>In Computer Science</p>
+          </div>
+        </div>
+        <div class="d-flex mx-auto flex-column">
+          <hr>
+          <div class="container-fluid">
+            <div class="tab rounded">
+              <button class="tablinks active" onclick="openCity(event, 'Career_1')">R&D Cybersecurity</button>
+              <button class="tablinks" onclick="openCity(event, 'Career_2')">Cloud DevOps Engineer</button>
+              <button class="tablinks" onclick="openCity(event, 'Career_3')">Web Application Developer</button>
+            </div>
+            <!--Career 1-->
+            <div id="Career_1" class="tabcontent rounded" style="display: block;">
+              <div class="row my-3">
+                <div class="col-md-12 col-lg-6">
+                  <h3><a href="https://jobs.acm.org/job/rd-cybersecuritysoftware-in-center-5600-experienced/65315900/" target="_blank" class="text-info">R&D Cybersecurity/Software in Center 5600 (Experienced)</a></h3>
+                  <h6>Sandia National Laboratories</h6>
+                  <p>Location: Albuquerque, New Mexico, United States (On-Site)</p>
+                  <p>Salary: $131,000 CAD- $257,000 CAD</p>
+                  <p>Duties:</p>
+                  <ul>
+                    <li>Manual and automated reverse engineering, vulnerability assessment, and malware analysis</li>
+                    <li>Intrusion prevention/detection and response, penetration testing, and forensics</li>
+                    <li>Network operation, information protection, and resiliency</li>
+                    <li>Authentication and authorization of projects</li>
+                  </ul>
+                  <p>Experience requirements:<br>Operating system design and security, assembly or operating system programming, active DOE Q or DoD TS security clearance and SCI security clearance</p>
+                </div>
+                <div class="col-md-12 col-lg-6 my-auto">
+                  <img alt="Career Image" class="career-img" src="Resources/images/career_1.jpg">
+                </div>
+              </div>
+            </div>
+            <!--Career 2-->
+            <div id="Career_2" class="tabcontent">
+              <div class="row my-3">
+                <div class="col-md-12 col-lg-6">
+                  <h3><a href="https://www.linkedin.com/jobs/search/?currentJobId=3258489513&keywords=cloud%20developer&start=25" target="_blank" class="text-info">Cloud DevOps Engineer (Mid-Career)</a></h3>
+                  <h6>Luxoft Services</h6>
+                  <p>Location: Toronto, Ontario, Canada (On-Site)</p>
+                  <p>Salary: $145,600 CAD - $260,000 CAD</p>
+                  <p>Duties:</p>
+                  <ul>
+                    <li>Manage timelines/deliverables within the team towards the successful delivery of projects</li>
+                    <li>Design software solutions by interacting with portfolio managers, traders, operations staff and peers to understand requirements</li>
+                    <li>Develop solutions that are in line with client's technology biases, deliver efficiency and scalability, and enable new trading activities</li>
+                    <li>Provide knowledge transfer to team members and support staff through application demos, walkthroughs, and documentation</li>
+                  </ul>
+                  <p>Experience requirements:<br>7+ years' experience as a DE in IT projects, 5+ years' experience as a DevOps, AWS Data Engineering Technologies (Expert Level) - Glue, EMR, AWS Lakeformation, S3 as Data Lake, DMS, Aurora Postgres</p>
+                </div>
+                <div class="col-md-12 col-lg-6 my-auto">
+                  <img alt="Career Image" class="career-img" src="Resources/images/career_2.jpg">
+                </div>
+              </div>
+            </div>
+            <!--Career 3-->
+            <div id="Career_3" class="tabcontent">
+              <div class="row my-3">
+                <div class="col-md-12 col-lg-6">
+                  <h3><a href="https://jobs.ieee.org/jobs/view/web-application-developer-advanced-visualization/65704121/?keywords=developer&pos_flt=0&location=&location_completion=&location_type=&location_text=&location_autocomplete=true&radius=320" target="_blank" class="text-info">Web Application Developer (Early Career)</a></h3>
+                  <h6>Guidehouse Digital LLC</h6>
+                  <p>Location: Rockville, Maryland, United States (On-Site)</p>
+                  <p>Salary: <i>Unavailable</i></p>
+                  <p>Duties:</p>
+                  <ul>
+                    <li>Develop user interfaces and data visualization tools from data acquired in collaboration with scientists, biologists and clinicians across NIH</li>
+                    <li>Define API needs for the client. Troubleshoot web applications. Use debug tools such as chrome developer tools</li>
+                    <li>Find and fix bugs, cross browser issues, performance issues</li>
+                    <li>Responsible for WebGL Track such as integrating html5 canvases accelerated with WebGL with React.js components</li>
+                  </ul>
+                  <p>Experience requirements:<br>JavaScript, TypeScript, Python, React, SVG, WebGL, D3, GraphQL, Webpack, Cypress, Express, Git, Docker, GitHub, GitHub Actions, Agile</p>
+                </div>
+                <div class="col-md-12 col-lg-6 my-auto">
+                  <img alt="Career Image" class="career-img" src="Resources/images/career_3.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="text-black-50">
+      <p>A project by <a href="mailto:336013404@educ.dpcdsb.org" class="text-black">Daniel Brown</a>, 2022.</p>
+    </footer>
+  </body>
+</html>
